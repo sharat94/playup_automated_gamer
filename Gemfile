@@ -20,6 +20,7 @@ gem 'redis-rails'
 gem 'axlsx'
 gem 'zip-zip'
 gem "sidekiq-cron", "~> 0.6.3"
+gem 'jquery-turbolinks'
 gem 'rufus-scheduler', '~> 3.4.0'
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
