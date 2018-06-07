@@ -66,6 +66,7 @@ GEM
     erubi (1.7.1)
     et-orbi (1.1.2)
       tzinfo
+    execjs (2.7.0)
     ffi (1.9.23)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
@@ -190,6 +191,8 @@ GEM
     turbolinks-source (5.1.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
+    uglifier (4.1.11)
+      execjs (>= 0.3.0, < 3)
     watir (6.11.0)
       selenium-webdriver (~> 3.4, >= 3.4.1)
     websocket-driver (0.6.5)
@@ -224,6 +227,7 @@ DEPENDENCIES
   spring-watcher-listen (~> 2.0.0)
   turbolinks
   tzinfo-data
+  uglifier
   watir (~> 6.10, >= 6.10.3)
   zip-zip
 
