@@ -9,7 +9,7 @@ class CrawlerService
   private
 
   def init_browser_session
-      @browser = Watir::Browser.new :chrome
+      @browser = Watir::Browser.new :chrome, headless: true
       @browser.driver.manage.window.maximize
       size = @browser.window.size
       @browser.goto @url

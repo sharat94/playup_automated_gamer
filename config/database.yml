@@ -15,3 +15,12 @@ test:
   pool: 5
   username: <%= ENV["USERNAME"] %>
   password: <%= ENV["PASSWORD"] %>
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: quote_fetcher_dev
+  host: localhost
+  pool: 5
+  username: <%= ENV["USERNAME"] %>
+  password: <%= ENV["PASSWORD"] %>

@@ -222,6 +222,7 @@ DEPENDENCIES
   spreadsheet
   spring
   spring-watcher-listen (~> 2.0.0)
+  turbolinks
   tzinfo-data
   watir (~> 6.10, >= 6.10.3)
   zip-zip
